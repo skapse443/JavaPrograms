@@ -9,7 +9,7 @@ public class CommonEle {
     
     }
  
-    public static void findCommonElements(int arr1[],                                      int arr2[])
+    public static void findCommonElements(int arr1[],int arr2[])
     {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
         for (int i = 0; i < arr1.length; i++) {
